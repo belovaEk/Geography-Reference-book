@@ -52,10 +52,64 @@
     <Compile Include="FormMainMenu.Designer.cs">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FormEconomy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormEconomy.Designer.cs">
+      <DependentUpon>FormEconomy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormFact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormFact.Designer.cs">
+      <DependentUpon>FormFact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormGeography.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormGeography.Designer.cs">
+      <DependentUpon>FormGeography.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormNature.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormNature.Designer.cs">
+      <DependentUpon>FormNature.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPolitics.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPolitics.Designer.cs">
+      <DependentUpon>FormPolitics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPopulation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPopulation.Designer.cs">
+      <DependentUpon>FormPopulation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormMainMenu.resx">
       <DependentUpon>FormMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormEconomy.resx">
+      <DependentUpon>FormEconomy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormFact.resx">
+      <DependentUpon>FormFact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormGeography.resx">
+      <DependentUpon>FormGeography.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormNature.resx">
+      <DependentUpon>FormNature.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPolitics.resx">
+      <DependentUpon>FormPolitics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPopulation.resx">
+      <DependentUpon>FormPopulation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +119,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +133,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-назад-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-письмо-45.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-письмо-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-режим-макро-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-география-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-география-38.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-групповой-звонок-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-групповой-звонок-37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-экономика-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-политика-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-политика-40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-идея-37.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
