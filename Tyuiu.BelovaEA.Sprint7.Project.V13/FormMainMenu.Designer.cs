@@ -68,9 +68,9 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.panelMenu_BEA.Controls.Add(this.panelLogo_BEA);
             this.panelMenu_BEA.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu_BEA.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu_BEA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelMenu_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelMenu_BEA.Name = "panelMenu_BEA";
-            this.panelMenu_BEA.Size = new System.Drawing.Size(165, 646);
+            this.panelMenu_BEA.Size = new System.Drawing.Size(220, 795);
             this.panelMenu_BEA.TabIndex = 0;
             // 
             // panelLogo_BEA
@@ -78,9 +78,9 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.panelLogo_BEA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
             this.panelLogo_BEA.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo_BEA.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo_BEA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelLogo_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelLogo_BEA.Name = "panelLogo_BEA";
-            this.panelLogo_BEA.Size = new System.Drawing.Size(165, 65);
+            this.panelLogo_BEA.Size = new System.Drawing.Size(220, 80);
             this.panelLogo_BEA.TabIndex = 0;
             // 
             // panelTitleBar_BEA
@@ -92,10 +92,10 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.panelTitleBar_BEA.Controls.Add(this.buttonCloseChildForm_BEA);
             this.panelTitleBar_BEA.Controls.Add(this.labelTitle_BEA);
             this.panelTitleBar_BEA.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar_BEA.Location = new System.Drawing.Point(165, 0);
-            this.panelTitleBar_BEA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panelTitleBar_BEA.Location = new System.Drawing.Point(220, 0);
+            this.panelTitleBar_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panelTitleBar_BEA.Name = "panelTitleBar_BEA";
-            this.panelTitleBar_BEA.Size = new System.Drawing.Size(844, 65);
+            this.panelTitleBar_BEA.Size = new System.Drawing.Size(1125, 80);
             this.panelTitleBar_BEA.TabIndex = 1;
             this.panelTitleBar_BEA.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_BEA_MouseDown);
             // 
@@ -106,10 +106,10 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonClose_BEA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonClose_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonClose_BEA.ForeColor = System.Drawing.Color.White;
-            this.buttonClose_BEA.Location = new System.Drawing.Point(818, 2);
-            this.buttonClose_BEA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonClose_BEA.Location = new System.Drawing.Point(1092, 2);
+            this.buttonClose_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonClose_BEA.Name = "buttonClose_BEA";
-            this.buttonClose_BEA.Size = new System.Drawing.Size(22, 24);
+            this.buttonClose_BEA.Size = new System.Drawing.Size(30, 35);
             this.buttonClose_BEA.TabIndex = 4;
             this.buttonClose_BEA.Text = "×";
             this.buttonClose_BEA.UseVisualStyleBackColor = true;
@@ -122,10 +122,10 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonMax_BEA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMax_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonMax_BEA.ForeColor = System.Drawing.Color.White;
-            this.buttonMax_BEA.Location = new System.Drawing.Point(793, 1);
-            this.buttonMax_BEA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonMax_BEA.Location = new System.Drawing.Point(1057, 1);
+            this.buttonMax_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonMax_BEA.Name = "buttonMax_BEA";
-            this.buttonMax_BEA.Size = new System.Drawing.Size(22, 26);
+            this.buttonMax_BEA.Size = new System.Drawing.Size(29, 32);
             this.buttonMax_BEA.TabIndex = 3;
             this.buttonMax_BEA.Text = "□";
             this.buttonMax_BEA.UseVisualStyleBackColor = true;
@@ -138,10 +138,10 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonMin_BEA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonMin_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonMin_BEA.ForeColor = System.Drawing.Color.White;
-            this.buttonMin_BEA.Location = new System.Drawing.Point(766, 2);
-            this.buttonMin_BEA.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonMin_BEA.Location = new System.Drawing.Point(1021, 2);
+            this.buttonMin_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonMin_BEA.Name = "buttonMin_BEA";
-            this.buttonMin_BEA.Size = new System.Drawing.Size(22, 24);
+            this.buttonMin_BEA.Size = new System.Drawing.Size(29, 30);
             this.buttonMin_BEA.TabIndex = 2;
             this.buttonMin_BEA.Text = "—";
             this.buttonMin_BEA.UseVisualStyleBackColor = true;
@@ -153,10 +153,9 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.labelTitle_BEA.AutoSize = true;
             this.labelTitle_BEA.Font = new System.Drawing.Font("Mongolian Baiti", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.labelTitle_BEA.ForeColor = System.Drawing.Color.White;
-            this.labelTitle_BEA.Location = new System.Drawing.Point(394, 16);
-            this.labelTitle_BEA.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelTitle_BEA.Location = new System.Drawing.Point(525, 20);
             this.labelTitle_BEA.Name = "labelTitle_BEA";
-            this.labelTitle_BEA.Size = new System.Drawing.Size(71, 25);
+            this.labelTitle_BEA.Size = new System.Drawing.Size(89, 32);
             this.labelTitle_BEA.TabIndex = 0;
             this.labelTitle_BEA.Text = "Меню";
             // 
@@ -167,9 +166,10 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.panelDesktopPanel_BEA.Controls.Add(this.textBoxWelcome);
             this.panelDesktopPanel_BEA.Controls.Add(this.labelWelcome_BEA);
             this.panelDesktopPanel_BEA.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktopPanel_BEA.Location = new System.Drawing.Point(165, 65);
+            this.panelDesktopPanel_BEA.Location = new System.Drawing.Point(220, 80);
+            this.panelDesktopPanel_BEA.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelDesktopPanel_BEA.Name = "panelDesktopPanel_BEA";
-            this.panelDesktopPanel_BEA.Size = new System.Drawing.Size(844, 581);
+            this.panelDesktopPanel_BEA.Size = new System.Drawing.Size(1125, 715);
             this.panelDesktopPanel_BEA.TabIndex = 2;
             // 
             // button4
@@ -179,13 +179,14 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button4.Location = new System.Drawing.Point(484, 436);
-            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button4.Location = new System.Drawing.Point(645, 537);
+            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(110, 45);
+            this.button4.Size = new System.Drawing.Size(147, 55);
             this.button4.TabIndex = 4;
             this.button4.Text = "Справка";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button2
             // 
@@ -194,10 +195,10 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.ForeColor = System.Drawing.Color.Gainsboro;
-            this.button2.Location = new System.Drawing.Point(268, 436);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button2.Location = new System.Drawing.Point(357, 537);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(111, 45);
+            this.button2.Size = new System.Drawing.Size(148, 55);
             this.button2.TabIndex = 2;
             this.button2.Text = "Руководство пользователя";
             this.button2.UseVisualStyleBackColor = false;
@@ -208,11 +209,11 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.textBoxWelcome.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxWelcome.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxWelcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxWelcome.Location = new System.Drawing.Point(1, 154);
-            this.textBoxWelcome.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxWelcome.Location = new System.Drawing.Point(1, 190);
+            this.textBoxWelcome.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBoxWelcome.Multiline = true;
             this.textBoxWelcome.Name = "textBoxWelcome";
-            this.textBoxWelcome.Size = new System.Drawing.Size(841, 245);
+            this.textBoxWelcome.Size = new System.Drawing.Size(1121, 302);
             this.textBoxWelcome.TabIndex = 1;
             this.textBoxWelcome.Text = resources.GetString("textBoxWelcome.Text");
             this.textBoxWelcome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -222,10 +223,9 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.labelWelcome_BEA.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.labelWelcome_BEA.AutoSize = true;
             this.labelWelcome_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelWelcome_BEA.Location = new System.Drawing.Point(327, 90);
-            this.labelWelcome_BEA.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelWelcome_BEA.Location = new System.Drawing.Point(436, 111);
             this.labelWelcome_BEA.Name = "labelWelcome_BEA";
-            this.labelWelcome_BEA.Size = new System.Drawing.Size(198, 25);
+            this.labelWelcome_BEA.Size = new System.Drawing.Size(241, 29);
             this.labelWelcome_BEA.TabIndex = 0;
             this.labelWelcome_BEA.Text = "Добро пожаловать!";
             // 
@@ -234,10 +234,10 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonCloseChildForm_BEA.FlatAppearance.BorderSize = 0;
             this.buttonCloseChildForm_BEA.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCloseChildForm_BEA.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_назад_50;
-            this.buttonCloseChildForm_BEA.Location = new System.Drawing.Point(2, 2);
-            this.buttonCloseChildForm_BEA.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonCloseChildForm_BEA.Location = new System.Drawing.Point(3, 2);
+            this.buttonCloseChildForm_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonCloseChildForm_BEA.Name = "buttonCloseChildForm_BEA";
-            this.buttonCloseChildForm_BEA.Size = new System.Drawing.Size(39, 63);
+            this.buttonCloseChildForm_BEA.Size = new System.Drawing.Size(52, 78);
             this.buttonCloseChildForm_BEA.TabIndex = 1;
             this.buttonCloseChildForm_BEA.UseVisualStyleBackColor = true;
             this.buttonCloseChildForm_BEA.Click += new System.EventHandler(this.buttonCloseChildForm_BEA_Click);
@@ -250,12 +250,13 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.ForeColor = System.Drawing.Color.Gainsboro;
             this.button1.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_письмо_20;
-            this.button1.Location = new System.Drawing.Point(121, 613);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Location = new System.Drawing.Point(161, 754);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(39, 22);
+            this.button1.Size = new System.Drawing.Size(52, 27);
             this.button1.TabIndex = 7;
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // buttonFact_BEA
             // 
@@ -266,11 +267,11 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonFact_BEA.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonFact_BEA.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_идея_37;
             this.buttonFact_BEA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonFact_BEA.Location = new System.Drawing.Point(0, 350);
-            this.buttonFact_BEA.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonFact_BEA.Location = new System.Drawing.Point(0, 430);
+            this.buttonFact_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonFact_BEA.Name = "buttonFact_BEA";
-            this.buttonFact_BEA.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.buttonFact_BEA.Size = new System.Drawing.Size(165, 57);
+            this.buttonFact_BEA.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonFact_BEA.Size = new System.Drawing.Size(220, 70);
             this.buttonFact_BEA.TabIndex = 6;
             this.buttonFact_BEA.Text = "    Факты";
             this.buttonFact_BEA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -286,11 +287,11 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonPolitics_BEA.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonPolitics_BEA.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_политика_40;
             this.buttonPolitics_BEA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonPolitics_BEA.Location = new System.Drawing.Point(0, 293);
-            this.buttonPolitics_BEA.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonPolitics_BEA.Location = new System.Drawing.Point(0, 360);
+            this.buttonPolitics_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonPolitics_BEA.Name = "buttonPolitics_BEA";
-            this.buttonPolitics_BEA.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.buttonPolitics_BEA.Size = new System.Drawing.Size(165, 57);
+            this.buttonPolitics_BEA.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonPolitics_BEA.Size = new System.Drawing.Size(220, 70);
             this.buttonPolitics_BEA.TabIndex = 5;
             this.buttonPolitics_BEA.Text = "   Политика";
             this.buttonPolitics_BEA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -306,11 +307,11 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonEconomy_BEA.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonEconomy_BEA.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_экономика_40;
             this.buttonEconomy_BEA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonEconomy_BEA.Location = new System.Drawing.Point(0, 236);
-            this.buttonEconomy_BEA.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonEconomy_BEA.Location = new System.Drawing.Point(0, 290);
+            this.buttonEconomy_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonEconomy_BEA.Name = "buttonEconomy_BEA";
-            this.buttonEconomy_BEA.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.buttonEconomy_BEA.Size = new System.Drawing.Size(165, 57);
+            this.buttonEconomy_BEA.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonEconomy_BEA.Size = new System.Drawing.Size(220, 70);
             this.buttonEconomy_BEA.TabIndex = 4;
             this.buttonEconomy_BEA.Text = "   Экономика";
             this.buttonEconomy_BEA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -326,11 +327,11 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonPopulation_BEA.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonPopulation_BEA.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_групповой_звонок_37;
             this.buttonPopulation_BEA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonPopulation_BEA.Location = new System.Drawing.Point(0, 179);
-            this.buttonPopulation_BEA.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonPopulation_BEA.Location = new System.Drawing.Point(0, 220);
+            this.buttonPopulation_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonPopulation_BEA.Name = "buttonPopulation_BEA";
-            this.buttonPopulation_BEA.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.buttonPopulation_BEA.Size = new System.Drawing.Size(165, 57);
+            this.buttonPopulation_BEA.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonPopulation_BEA.Size = new System.Drawing.Size(220, 70);
             this.buttonPopulation_BEA.TabIndex = 3;
             this.buttonPopulation_BEA.Text = "   Население";
             this.buttonPopulation_BEA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -346,11 +347,11 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonNature_BEA.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonNature_BEA.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_режим_макро_35;
             this.buttonNature_BEA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonNature_BEA.Location = new System.Drawing.Point(0, 122);
-            this.buttonNature_BEA.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonNature_BEA.Location = new System.Drawing.Point(0, 150);
+            this.buttonNature_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonNature_BEA.Name = "buttonNature_BEA";
-            this.buttonNature_BEA.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.buttonNature_BEA.Size = new System.Drawing.Size(165, 57);
+            this.buttonNature_BEA.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonNature_BEA.Size = new System.Drawing.Size(220, 70);
             this.buttonNature_BEA.TabIndex = 2;
             this.buttonNature_BEA.Text = "   Природа";
             this.buttonNature_BEA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -366,11 +367,11 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonGeography_BEA.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonGeography_BEA.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_география_38;
             this.buttonGeography_BEA.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.buttonGeography_BEA.Location = new System.Drawing.Point(0, 65);
-            this.buttonGeography_BEA.Margin = new System.Windows.Forms.Padding(2);
+            this.buttonGeography_BEA.Location = new System.Drawing.Point(0, 80);
+            this.buttonGeography_BEA.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.buttonGeography_BEA.Name = "buttonGeography_BEA";
-            this.buttonGeography_BEA.Padding = new System.Windows.Forms.Padding(9, 0, 0, 0);
-            this.buttonGeography_BEA.Size = new System.Drawing.Size(165, 57);
+            this.buttonGeography_BEA.Padding = new System.Windows.Forms.Padding(12, 0, 0, 0);
+            this.buttonGeography_BEA.Size = new System.Drawing.Size(220, 70);
             this.buttonGeography_BEA.TabIndex = 1;
             this.buttonGeography_BEA.Text = "   География";
             this.buttonGeography_BEA.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
@@ -379,13 +380,13 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             // 
             // FormMainMenu_BEA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1009, 646);
+            this.ClientSize = new System.Drawing.Size(1345, 795);
             this.Controls.Add(this.panelDesktopPanel_BEA);
             this.Controls.Add(this.panelTitleBar_BEA);
             this.Controls.Add(this.panelMenu_BEA);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormMainMenu_BEA";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormMainMenu";
