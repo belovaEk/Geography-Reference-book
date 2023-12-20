@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
 {
-    public partial class FormPopulation : Form
+    public partial class FormPopulation_BEA : Form
     {
-        public FormPopulation()
+        public FormPopulation_BEA()
         {
             InitializeComponent();
         }

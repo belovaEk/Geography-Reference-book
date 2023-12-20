@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
 {
-    public partial class FormNature : Form
+    public partial class FormNature_BEA : Form
     {
-        public FormNature()
+        public FormNature_BEA()
         {
             InitializeComponent();
         }

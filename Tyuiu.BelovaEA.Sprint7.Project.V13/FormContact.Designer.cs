@@ -1,7 +1,7 @@
 ﻿
 namespace Tyuiu.BelovaEA.Sprint7.Project.V13
 {
-    partial class FormContact
+    partial class FormContact_BEA
     {
         /// <summary>
         /// Required designer variable.
@@ -151,7 +151,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonOk_BEA.Visible = false;
             this.buttonOk_BEA.Click += new System.EventHandler(this.buttonOk_BEA_Click);
             // 
-            // FormContact
+            // FormContact_BEA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -169,7 +169,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "FormContact";
+            this.Name = "FormContact_BEA";
             this.ShowIcon = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Обратная связь";

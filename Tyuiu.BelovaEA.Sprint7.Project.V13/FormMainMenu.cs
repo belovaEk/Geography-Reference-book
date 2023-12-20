@@ -97,7 +97,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
                 }
             }
 
-            OpenChildForm(new Forms.FormNature());
+            OpenChildForm(new Forms.FormNature_BEA());
         }
 
         private void buttonPopulation_BEA_Click(object sender, EventArgs e)
@@ -117,7 +117,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
                 }
             }
 
-            OpenChildForm(new Forms.FormPopulation());
+            OpenChildForm(new Forms.FormPopulation_BEA());
         }
 
         private void buttonEconomy_BEA_Click(object sender, EventArgs e)
@@ -157,7 +157,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
                 }
             }
 
-            OpenChildForm(new Forms.FormPolitics());
+            OpenChildForm(new Forms.FormPolitics_BEA());
         }
 
         private void buttonFact_BEA_Click(object sender, EventArgs e)
@@ -183,7 +183,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
         {
             DisableButton();
             labelTitle_BEA.Text = "Меню";
-            panelTitleBar_BEA.BackColor = Color.FromArgb(0, 150, 136);
+            panelTitleBar_BEA.BackColor = Color.FromArgb(95, 158, 160);
             panelLogo_BEA.BackColor = Color.FromArgb(39, 39, 58);
             currentButton = null;
             buttonCloseChildForm_BEA.Visible = false;
@@ -228,7 +228,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
 
         private void button1_Click(object sender, EventArgs e)
         {
-            FormContact formContact = new FormContact();
+            FormContact_BEA formContact = new FormContact_BEA();
             formContact.ShowDialog();
         }
     }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tyuiu.BelovaEA.Sprint7.Project.V13
 {
-    public partial class FormContact : Form
+    public partial class FormContact_BEA : Form
     {
-        public FormContact()
+        public FormContact_BEA()
         {
             InitializeComponent();
         }
