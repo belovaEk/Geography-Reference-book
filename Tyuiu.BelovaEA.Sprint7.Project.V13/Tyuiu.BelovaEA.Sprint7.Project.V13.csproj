@@ -198,5 +198,83 @@
   <ItemGroup>
     <None Include="Resources\ry.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\America_Map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\China_map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\France_map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Japan_map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Russia_map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animal_China.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animal_France.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animal_Japan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animal_Russia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animal_USA.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nature_China.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nature_France.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nature_Japan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nature_Russia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nature_USA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_China.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_France.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_Japan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_USA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_Russia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fact_Russia.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fact_Russia1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fact_USA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fact_France.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fact_China.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fact_Japan.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

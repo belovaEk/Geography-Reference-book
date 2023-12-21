@@ -160,4 +160,82 @@
   <data name="ry" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ry.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="America_Map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\America_Map.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="China_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\China_map.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="France_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\France_map.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Japan_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Japan_map.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Russia_map" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Russia_map.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animal_China" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animal_China.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animal_France" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animal_France.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animal_Japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animal_Japan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animal_Russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animal_Russia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animal_USA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animal_USA.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nature_China" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nature_China.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nature_France" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nature_France.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nature_Japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nature_Japan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nature_Russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nature_Russia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nature_USA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nature_USA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="president_China" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\president_China.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="president_France" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\president_France.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="president_Japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\president_Japan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="president_USA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\president_USA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="president_Russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\president_Russia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fact_Russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fact_Russia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fact_Russia1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fact_Russia1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fact_China" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fact_China.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fact_France" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fact_France.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fact_Japan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fact_Japan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fact_USA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fact_USA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
