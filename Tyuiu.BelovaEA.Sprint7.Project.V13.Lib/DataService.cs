@@ -9,26 +9,83 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Lib
 {
     public class DataService
     {
-        /*public string[] Reader(string path)
+        public string[] Georaphy(int index, string path)
         {
-            
-            //string path = @"C:\Users\belov\source\repos\Tyuiu.BelovaEA.Sprint7\Based\Info.csv";
-            StreamReader reader = null;
+            string[] res = new string[2];
 
-            if (File.Exists(path))
+            string fileData = File.ReadAllText(path);
+            fileData = fileData.Replace('\n', '\r');
+            string[] lines = fileData.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+            int rows = lines.Length;
+            int columns = lines[0].Split(',').Length;
+            string[,] arrayValues = new string[rows, columns];
+
+            for (int r = 0; r < rows; r++)
             {
-                reader = new StreamReader(File.OpenRead(path));
-                
-                while (!reader.EndOfStream)
+                string[] line_r = lines[r].Split(',');
+                for (int c = 0; c < columns; c++)
                 {
-                    var line = reader.ReadLine();
-                    string[] values = line.Split(',');
+                    arrayValues[r, c] = Convert.ToString(line_r[c]);
                 }
-                    
             }
-            reader.Close();
+            res[0] = arrayValues[index, 1];
+            res[1] = arrayValues[index, 2];
+            return res;
         }
-        return values;
-        */
+        
+        public int[,] Population_Number(int index, string path)
+        { 
+            string fileData = File.ReadAllText(path);
+            fileData = fileData.Replace('\n', '\r');
+            string[] lines = fileData.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+            int rows = lines.Length;
+            int columns = lines[0].Split(',').Length;
+            int[,] arrayValues = new int[rows, columns];
+
+            for (int r = 0; r < rows; r++)
+            {
+                string[] line_r = lines[r].Split(',');
+                for (int c = 0; c < columns; c++)
+                {
+                    arrayValues[r, c] = Convert.ToInt32(line_r[c]);
+                }
+            }
+
+            int[,] res = new int[2, columns];
+            for (int i = 0; i<2; i++)
+            {
+                for (int c = 0; c < columns; c++)
+                {
+                    res[0, c] = arrayValues[0, c];
+                    res[1, c] = arrayValues[index+1, c];
+                }
+            }
+
+            return res;    
+        }
+
+        public string[,] Population_Nationaly(string path)
+        {
+            string fileData = File.ReadAllText(path);
+            fileData = fileData.Replace('\n', '\r');
+            string[] lines = fileData.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+            int rows = lines.Length;
+            int columns = lines[0].Split(',').Length;
+            string[,] arrayValues = new string[rows, columns];
+
+            for (int r = 0; r < rows; r++)
+            {
+                string[] line_r = lines[r].Split(',');
+                for (int c = 0; c < columns; c++)
+                {
+                    arrayValues[r, c] = Convert.ToString(line_r[c]);
+                }
+            }
+
+            return arrayValues;
+        }
     }
 }

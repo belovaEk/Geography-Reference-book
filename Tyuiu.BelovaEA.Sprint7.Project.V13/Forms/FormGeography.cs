@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using Tyuiu.BelovaEA.Sprint7.Project.V13.Lib;
+
 
 namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
 {
@@ -18,11 +20,16 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
             InitializeComponent();
         }
 
-        
+        DataService ds = new DataService();
+        string path = @"C:\Users\belov\source\repos\Tyuiu.BelovaEA.Sprint7\Based\Info.csv";
+
         private void comboBoxChoosingCountry_BEA_SelectedIndexChanged(object sender, EventArgs e)
         {
-            
-            switch (comboBoxChoosingCountry_BEA.SelectedIndex)
+            int Country = comboBoxChoosingCountry_BEA.SelectedIndex;
+            labelCapital_BEA.Text = $"Столица: {ds.Georaphy(Country, path)[0]}";
+            labelSquare_BEA.Text = $"Площадь: {ds.Georaphy(Country, path)[1]}";
+
+            switch (Country)
             {
                 case 0:
                     pictureBoxMap_BEA.Image = Properties.Resources.Russia_map;
