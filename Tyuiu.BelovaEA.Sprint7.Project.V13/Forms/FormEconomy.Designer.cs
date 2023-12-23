@@ -29,10 +29,10 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend6 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title6 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title7 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.comboBoxChoosingCountry_BEA = new System.Windows.Forms.ComboBox();
             this.textBoxEconomy_BEA = new System.Windows.Forms.TextBox();
             this.chartVVP_BEA = new System.Windows.Forms.DataVisualization.Charting.Chart();
@@ -63,7 +63,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
             // 
             // textBoxEconomy_BEA
             // 
-            this.textBoxEconomy_BEA.BackColor = System.Drawing.Color.White;
+            this.textBoxEconomy_BEA.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxEconomy_BEA.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxEconomy_BEA.Dock = System.Windows.Forms.DockStyle.Fill;
             this.textBoxEconomy_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -77,38 +77,38 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
             // 
             // chartVVP_BEA
             // 
-            chartArea6.Name = "ChartArea1";
-            this.chartVVP_BEA.ChartAreas.Add(chartArea6);
+            chartArea7.Name = "ChartArea1";
+            this.chartVVP_BEA.ChartAreas.Add(chartArea7);
             this.chartVVP_BEA.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend6.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
-            legend6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            legend6.IsTextAutoFit = false;
-            legend6.Name = "Legend_Population_BEA";
-            legend6.Position.Auto = false;
-            legend6.Position.Height = 12.9199F;
-            legend6.Position.Width = 35.11905F;
-            legend6.Position.X = 3F;
-            legend6.Position.Y = 3F;
-            legend6.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
-            this.chartVVP_BEA.Legends.Add(legend6);
+            legend7.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
+            legend7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            legend7.IsTextAutoFit = false;
+            legend7.Name = "Legend_Population_BEA";
+            legend7.Position.Auto = false;
+            legend7.Position.Height = 12.9199F;
+            legend7.Position.Width = 35.11905F;
+            legend7.Position.X = 3F;
+            legend7.Position.Y = 3F;
+            legend7.TitleFont = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.chartVVP_BEA.Legends.Add(legend7);
             this.chartVVP_BEA.Location = new System.Drawing.Point(0, 0);
             this.chartVVP_BEA.Name = "chartVVP_BEA";
             this.chartVVP_BEA.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
-            series6.BorderWidth = 4;
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
-            series6.Color = System.Drawing.Color.CadetBlue;
-            series6.IsVisibleInLegend = false;
-            series6.Legend = "Legend_Population_BEA";
-            series6.Name = "Series1";
-            this.chartVVP_BEA.Series.Add(series6);
+            series7.BorderWidth = 4;
+            series7.ChartArea = "ChartArea1";
+            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
+            series7.Color = System.Drawing.Color.CadetBlue;
+            series7.IsVisibleInLegend = false;
+            series7.Legend = "Legend_Population_BEA";
+            series7.Name = "Series1";
+            this.chartVVP_BEA.Series.Add(series7);
             this.chartVVP_BEA.Size = new System.Drawing.Size(654, 547);
             this.chartVVP_BEA.TabIndex = 7;
             this.chartVVP_BEA.Text = "chart1";
-            title6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            title6.Name = "TitleVVP_BEA";
-            title6.Text = "ВВП на душу населения (в млрд долл. США)";
-            this.chartVVP_BEA.Titles.Add(title6);
+            title7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            title7.Name = "TitleVVP_BEA";
+            title7.Text = "ВВП на душу населения (в млрд долл. США)";
+            this.chartVVP_BEA.Titles.Add(title7);
             // 
             // splitContainer1
             // 

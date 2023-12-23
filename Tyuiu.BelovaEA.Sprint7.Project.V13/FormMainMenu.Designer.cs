@@ -31,18 +31,6 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMainMenu_BEA));
             this.panelMenu_BEA = new System.Windows.Forms.Panel();
-            this.panelLogo_BEA = new System.Windows.Forms.Panel();
-            this.panelTitleBar_BEA = new System.Windows.Forms.Panel();
-            this.buttonClose_BEA = new System.Windows.Forms.Button();
-            this.buttonMax_BEA = new System.Windows.Forms.Button();
-            this.buttonMin_BEA = new System.Windows.Forms.Button();
-            this.labelTitle_BEA = new System.Windows.Forms.Label();
-            this.panelDesktopPanel_BEA = new System.Windows.Forms.Panel();
-            this.buttonAbout_BEA = new System.Windows.Forms.Button();
-            this.buttonGuide_BEA = new System.Windows.Forms.Button();
-            this.textBoxWelcome = new System.Windows.Forms.TextBox();
-            this.labelWelcome_BEA = new System.Windows.Forms.Label();
-            this.buttonCloseChildForm_BEA = new System.Windows.Forms.Button();
             this.buttonFeedback_BEA = new System.Windows.Forms.Button();
             this.buttonFact_BEA = new System.Windows.Forms.Button();
             this.buttonPolitics_BEA = new System.Windows.Forms.Button();
@@ -50,6 +38,18 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonPopulation_BEA = new System.Windows.Forms.Button();
             this.buttonNature_BEA = new System.Windows.Forms.Button();
             this.buttonGeography_BEA = new System.Windows.Forms.Button();
+            this.panelLogo_BEA = new System.Windows.Forms.Panel();
+            this.panelTitleBar_BEA = new System.Windows.Forms.Panel();
+            this.buttonClose_BEA = new System.Windows.Forms.Button();
+            this.buttonMax_BEA = new System.Windows.Forms.Button();
+            this.buttonMin_BEA = new System.Windows.Forms.Button();
+            this.buttonCloseChildForm_BEA = new System.Windows.Forms.Button();
+            this.labelTitle_BEA = new System.Windows.Forms.Label();
+            this.panelDesktopPanel_BEA = new System.Windows.Forms.Panel();
+            this.buttonAbout_BEA = new System.Windows.Forms.Button();
+            this.buttonGuide_BEA = new System.Windows.Forms.Button();
+            this.textBoxWelcome = new System.Windows.Forms.TextBox();
+            this.labelWelcome_BEA = new System.Windows.Forms.Label();
             this.panelMenu_BEA.SuspendLayout();
             this.panelTitleBar_BEA.SuspendLayout();
             this.panelDesktopPanel_BEA.SuspendLayout();
@@ -68,104 +68,6 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.panelMenu_BEA.Controls.Add(this.panelLogo_BEA);
             resources.ApplyResources(this.panelMenu_BEA, "panelMenu_BEA");
             this.panelMenu_BEA.Name = "panelMenu_BEA";
-            // 
-            // panelLogo_BEA
-            // 
-            this.panelLogo_BEA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
-            resources.ApplyResources(this.panelLogo_BEA, "panelLogo_BEA");
-            this.panelLogo_BEA.Name = "panelLogo_BEA";
-            // 
-            // panelTitleBar_BEA
-            // 
-            this.panelTitleBar_BEA.BackColor = System.Drawing.Color.CadetBlue;
-            this.panelTitleBar_BEA.Controls.Add(this.buttonClose_BEA);
-            this.panelTitleBar_BEA.Controls.Add(this.buttonMax_BEA);
-            this.panelTitleBar_BEA.Controls.Add(this.buttonMin_BEA);
-            this.panelTitleBar_BEA.Controls.Add(this.buttonCloseChildForm_BEA);
-            this.panelTitleBar_BEA.Controls.Add(this.labelTitle_BEA);
-            resources.ApplyResources(this.panelTitleBar_BEA, "panelTitleBar_BEA");
-            this.panelTitleBar_BEA.Name = "panelTitleBar_BEA";
-            this.panelTitleBar_BEA.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_BEA_MouseDown);
-            // 
-            // buttonClose_BEA
-            // 
-            resources.ApplyResources(this.buttonClose_BEA, "buttonClose_BEA");
-            this.buttonClose_BEA.FlatAppearance.BorderSize = 0;
-            this.buttonClose_BEA.ForeColor = System.Drawing.Color.White;
-            this.buttonClose_BEA.Name = "buttonClose_BEA";
-            this.buttonClose_BEA.UseVisualStyleBackColor = true;
-            this.buttonClose_BEA.Click += new System.EventHandler(this.buttonClose_BEA_Click);
-            // 
-            // buttonMax_BEA
-            // 
-            resources.ApplyResources(this.buttonMax_BEA, "buttonMax_BEA");
-            this.buttonMax_BEA.FlatAppearance.BorderSize = 0;
-            this.buttonMax_BEA.ForeColor = System.Drawing.Color.White;
-            this.buttonMax_BEA.Name = "buttonMax_BEA";
-            this.buttonMax_BEA.UseVisualStyleBackColor = true;
-            this.buttonMax_BEA.Click += new System.EventHandler(this.buttonMax_BEA_Click);
-            // 
-            // buttonMin_BEA
-            // 
-            resources.ApplyResources(this.buttonMin_BEA, "buttonMin_BEA");
-            this.buttonMin_BEA.FlatAppearance.BorderSize = 0;
-            this.buttonMin_BEA.ForeColor = System.Drawing.Color.White;
-            this.buttonMin_BEA.Name = "buttonMin_BEA";
-            this.buttonMin_BEA.UseVisualStyleBackColor = true;
-            this.buttonMin_BEA.Click += new System.EventHandler(this.buttonMin_BEA_Click);
-            // 
-            // labelTitle_BEA
-            // 
-            resources.ApplyResources(this.labelTitle_BEA, "labelTitle_BEA");
-            this.labelTitle_BEA.ForeColor = System.Drawing.Color.White;
-            this.labelTitle_BEA.Name = "labelTitle_BEA";
-            // 
-            // panelDesktopPanel_BEA
-            // 
-            this.panelDesktopPanel_BEA.Controls.Add(this.buttonAbout_BEA);
-            this.panelDesktopPanel_BEA.Controls.Add(this.buttonGuide_BEA);
-            this.panelDesktopPanel_BEA.Controls.Add(this.textBoxWelcome);
-            this.panelDesktopPanel_BEA.Controls.Add(this.labelWelcome_BEA);
-            resources.ApplyResources(this.panelDesktopPanel_BEA, "panelDesktopPanel_BEA");
-            this.panelDesktopPanel_BEA.Name = "panelDesktopPanel_BEA";
-            // 
-            // buttonAbout_BEA
-            // 
-            resources.ApplyResources(this.buttonAbout_BEA, "buttonAbout_BEA");
-            this.buttonAbout_BEA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.buttonAbout_BEA.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonAbout_BEA.Name = "buttonAbout_BEA";
-            this.buttonAbout_BEA.UseVisualStyleBackColor = false;
-            this.buttonAbout_BEA.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // buttonGuide_BEA
-            // 
-            resources.ApplyResources(this.buttonGuide_BEA, "buttonGuide_BEA");
-            this.buttonGuide_BEA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.buttonGuide_BEA.ForeColor = System.Drawing.Color.Gainsboro;
-            this.buttonGuide_BEA.Name = "buttonGuide_BEA";
-            this.buttonGuide_BEA.UseVisualStyleBackColor = false;
-            // 
-            // textBoxWelcome
-            // 
-            resources.ApplyResources(this.textBoxWelcome, "textBoxWelcome");
-            this.textBoxWelcome.BackColor = System.Drawing.SystemColors.Control;
-            this.textBoxWelcome.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxWelcome.Name = "textBoxWelcome";
-            // 
-            // labelWelcome_BEA
-            // 
-            resources.ApplyResources(this.labelWelcome_BEA, "labelWelcome_BEA");
-            this.labelWelcome_BEA.Name = "labelWelcome_BEA";
-            // 
-            // buttonCloseChildForm_BEA
-            // 
-            this.buttonCloseChildForm_BEA.FlatAppearance.BorderSize = 0;
-            resources.ApplyResources(this.buttonCloseChildForm_BEA, "buttonCloseChildForm_BEA");
-            this.buttonCloseChildForm_BEA.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_назад_50;
-            this.buttonCloseChildForm_BEA.Name = "buttonCloseChildForm_BEA";
-            this.buttonCloseChildForm_BEA.UseVisualStyleBackColor = true;
-            this.buttonCloseChildForm_BEA.Click += new System.EventHandler(this.buttonCloseChildForm_BEA_Click);
             // 
             // buttonFeedback_BEA
             // 
@@ -237,6 +139,105 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonGeography_BEA.Name = "buttonGeography_BEA";
             this.buttonGeography_BEA.UseVisualStyleBackColor = true;
             this.buttonGeography_BEA.Click += new System.EventHandler(this.buttonGeography_BEA_Click);
+            // 
+            // panelLogo_BEA
+            // 
+            this.panelLogo_BEA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(39)))), ((int)(((byte)(58)))));
+            resources.ApplyResources(this.panelLogo_BEA, "panelLogo_BEA");
+            this.panelLogo_BEA.Name = "panelLogo_BEA";
+            // 
+            // panelTitleBar_BEA
+            // 
+            this.panelTitleBar_BEA.BackColor = System.Drawing.Color.CadetBlue;
+            this.panelTitleBar_BEA.Controls.Add(this.buttonClose_BEA);
+            this.panelTitleBar_BEA.Controls.Add(this.buttonMax_BEA);
+            this.panelTitleBar_BEA.Controls.Add(this.buttonMin_BEA);
+            this.panelTitleBar_BEA.Controls.Add(this.buttonCloseChildForm_BEA);
+            this.panelTitleBar_BEA.Controls.Add(this.labelTitle_BEA);
+            resources.ApplyResources(this.panelTitleBar_BEA, "panelTitleBar_BEA");
+            this.panelTitleBar_BEA.Name = "panelTitleBar_BEA";
+            this.panelTitleBar_BEA.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelTitleBar_BEA_MouseDown);
+            // 
+            // buttonClose_BEA
+            // 
+            resources.ApplyResources(this.buttonClose_BEA, "buttonClose_BEA");
+            this.buttonClose_BEA.FlatAppearance.BorderSize = 0;
+            this.buttonClose_BEA.ForeColor = System.Drawing.Color.White;
+            this.buttonClose_BEA.Name = "buttonClose_BEA";
+            this.buttonClose_BEA.UseVisualStyleBackColor = true;
+            this.buttonClose_BEA.Click += new System.EventHandler(this.buttonClose_BEA_Click);
+            // 
+            // buttonMax_BEA
+            // 
+            resources.ApplyResources(this.buttonMax_BEA, "buttonMax_BEA");
+            this.buttonMax_BEA.FlatAppearance.BorderSize = 0;
+            this.buttonMax_BEA.ForeColor = System.Drawing.Color.White;
+            this.buttonMax_BEA.Name = "buttonMax_BEA";
+            this.buttonMax_BEA.UseVisualStyleBackColor = true;
+            this.buttonMax_BEA.Click += new System.EventHandler(this.buttonMax_BEA_Click);
+            // 
+            // buttonMin_BEA
+            // 
+            resources.ApplyResources(this.buttonMin_BEA, "buttonMin_BEA");
+            this.buttonMin_BEA.FlatAppearance.BorderSize = 0;
+            this.buttonMin_BEA.ForeColor = System.Drawing.Color.White;
+            this.buttonMin_BEA.Name = "buttonMin_BEA";
+            this.buttonMin_BEA.UseVisualStyleBackColor = true;
+            this.buttonMin_BEA.Click += new System.EventHandler(this.buttonMin_BEA_Click);
+            // 
+            // buttonCloseChildForm_BEA
+            // 
+            this.buttonCloseChildForm_BEA.FlatAppearance.BorderSize = 0;
+            resources.ApplyResources(this.buttonCloseChildForm_BEA, "buttonCloseChildForm_BEA");
+            this.buttonCloseChildForm_BEA.Image = global::Tyuiu.BelovaEA.Sprint7.Project.V13.Properties.Resources.icons8_назад_50;
+            this.buttonCloseChildForm_BEA.Name = "buttonCloseChildForm_BEA";
+            this.buttonCloseChildForm_BEA.UseVisualStyleBackColor = true;
+            this.buttonCloseChildForm_BEA.Click += new System.EventHandler(this.buttonCloseChildForm_BEA_Click);
+            // 
+            // labelTitle_BEA
+            // 
+            resources.ApplyResources(this.labelTitle_BEA, "labelTitle_BEA");
+            this.labelTitle_BEA.ForeColor = System.Drawing.Color.White;
+            this.labelTitle_BEA.Name = "labelTitle_BEA";
+            // 
+            // panelDesktopPanel_BEA
+            // 
+            this.panelDesktopPanel_BEA.Controls.Add(this.buttonAbout_BEA);
+            this.panelDesktopPanel_BEA.Controls.Add(this.buttonGuide_BEA);
+            this.panelDesktopPanel_BEA.Controls.Add(this.textBoxWelcome);
+            this.panelDesktopPanel_BEA.Controls.Add(this.labelWelcome_BEA);
+            resources.ApplyResources(this.panelDesktopPanel_BEA, "panelDesktopPanel_BEA");
+            this.panelDesktopPanel_BEA.Name = "panelDesktopPanel_BEA";
+            // 
+            // buttonAbout_BEA
+            // 
+            resources.ApplyResources(this.buttonAbout_BEA, "buttonAbout_BEA");
+            this.buttonAbout_BEA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.buttonAbout_BEA.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonAbout_BEA.Name = "buttonAbout_BEA";
+            this.buttonAbout_BEA.UseVisualStyleBackColor = false;
+            this.buttonAbout_BEA.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // buttonGuide_BEA
+            // 
+            resources.ApplyResources(this.buttonGuide_BEA, "buttonGuide_BEA");
+            this.buttonGuide_BEA.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
+            this.buttonGuide_BEA.ForeColor = System.Drawing.Color.Gainsboro;
+            this.buttonGuide_BEA.Name = "buttonGuide_BEA";
+            this.buttonGuide_BEA.UseVisualStyleBackColor = false;
+            this.buttonGuide_BEA.Click += new System.EventHandler(this.buttonGuide_BEA_Click);
+            // 
+            // textBoxWelcome
+            // 
+            resources.ApplyResources(this.textBoxWelcome, "textBoxWelcome");
+            this.textBoxWelcome.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxWelcome.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxWelcome.Name = "textBoxWelcome";
+            // 
+            // labelWelcome_BEA
+            // 
+            resources.ApplyResources(this.labelWelcome_BEA, "labelWelcome_BEA");
+            this.labelWelcome_BEA.Name = "labelWelcome_BEA";
             // 
             // FormMainMenu_BEA
             // 

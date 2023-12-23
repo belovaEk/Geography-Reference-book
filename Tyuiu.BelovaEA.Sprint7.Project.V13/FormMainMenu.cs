@@ -9,13 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using System.IO;
+
 namespace Tyuiu.BelovaEA.Sprint7.Project.V13
 {
     public partial class FormMainMenu_BEA : Form
     {
         private Button currentButton;
-        private Random random;
-        private int tempIndex;
         private Form activeForm;
         public FormMainMenu_BEA()
         {
@@ -23,7 +23,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             buttonCloseChildForm_BEA.Visible = false;
             this.Text = string.Empty;
             this.ControlBox = false;
-            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+            
         }
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -230,6 +230,16 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
         {
             FormContact_BEA formContact = new FormContact_BEA();
             formContact.ShowDialog();
+        }
+
+        private void buttonGuide_BEA_Click(object sender, EventArgs e)
+        {
+            
+            string path = $@"{Directory.GetCurrentDirectory()}\User's_guide.docx";
+            System.Diagnostics.Process txt = new System.Diagnostics.Process();
+            txt.StartInfo.FileName = "WINWORD.EXE";
+            txt.StartInfo.Arguments = path;
+            txt.Start();
         }
     }
 }
