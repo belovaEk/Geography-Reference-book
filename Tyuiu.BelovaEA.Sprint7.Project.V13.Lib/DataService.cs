@@ -87,5 +87,37 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Lib
 
             return arrayValues;
         }
+
+        public double[,] Economy(int index, string path)
+        {
+            string fileData = File.ReadAllText(path);
+            fileData = fileData.Replace('\n', '\r');
+            string[] lines = fileData.Split(new char[] { '\r' }, StringSplitOptions.RemoveEmptyEntries);
+
+            int rows = lines.Length;
+            int columns = lines[0].Split(';').Length;
+            double[,] arrayValues = new double[rows, columns];
+
+            for (int r = 0; r < rows; r++)
+            {
+                string[] line_r = lines[r].Split(';');
+                for (int c = 0; c < columns; c++)
+                {
+                    arrayValues[r, c] = Convert.ToDouble(line_r[c]);
+                }
+            }
+
+            double[,] res = new double[2, columns];
+            for (int i = 0; i < 2; i++)
+            {
+                for (int c = 0; c < columns; c++)
+                {
+                    res[0, c] = arrayValues[0, c];
+                    res[1, c] = arrayValues[index + 1, c];
+                }
+            }
+
+            return res;
+        }
     }
 }
