@@ -72,6 +72,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
             this.chartNumber_BEA.ChartAreas.Add(chartArea1);
             this.chartNumber_BEA.Dock = System.Windows.Forms.DockStyle.Fill;
             legend1.Docking = System.Windows.Forms.DataVisualization.Charting.Docking.Top;
+            legend1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             legend1.IsTextAutoFit = false;
             legend1.Name = "Legend_Population_BEA";
             legend1.Position.Auto = false;
@@ -86,6 +87,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
             this.chartNumber_BEA.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.SeaGreen;
             series1.BorderWidth = 4;
             series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
             series1.Color = System.Drawing.Color.CadetBlue;
             series1.IsVisibleInLegend = false;
             series1.Legend = "Legend_Population_BEA";
@@ -104,6 +106,8 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
             chartArea2.Name = "ChartArea1";
             this.chartNationaly_BEA.ChartAreas.Add(chartArea2);
             this.chartNationaly_BEA.Dock = System.Windows.Forms.DockStyle.Fill;
+            legend2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            legend2.IsTextAutoFit = false;
             legend2.Name = "Legend1";
             this.chartNationaly_BEA.Legends.Add(legend2);
             this.chartNationaly_BEA.Location = new System.Drawing.Point(0, 0);

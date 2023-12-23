@@ -59,7 +59,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Lib
                 for (int c = 0; c < columns; c++)
                 {
                     res[0, c] = arrayValues[0, c];
-                    res[1, c] = arrayValues[index+1, c];
+                    res[1, c] = arrayValues[index+1, c]/1000;
                 }
             }
 
