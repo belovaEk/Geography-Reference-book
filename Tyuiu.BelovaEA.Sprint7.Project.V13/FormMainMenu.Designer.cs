@@ -216,7 +216,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.buttonAbout_BEA.ForeColor = System.Drawing.Color.Gainsboro;
             this.buttonAbout_BEA.Name = "buttonAbout_BEA";
             this.buttonAbout_BEA.UseVisualStyleBackColor = false;
-            this.buttonAbout_BEA.Click += new System.EventHandler(this.button4_Click);
+            this.buttonAbout_BEA.Click += new System.EventHandler(this.buttonAbout_BEA_Click);
             // 
             // buttonGuide_BEA
             // 

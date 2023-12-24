@@ -199,9 +199,6 @@
     <None Include="Resources\ry.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\America_Map.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\China_map.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -217,9 +214,6 @@
     <None Include="Resources\animal_China.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\animal_France.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\animal_Japan.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -232,9 +226,6 @@
     <None Include="Resources\nature_China.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\nature_France.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\nature_Japan.png" />
   </ItemGroup>
   <ItemGroup>
@@ -242,18 +233,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\nature_USA.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\president_China.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\president_France.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\president_Japan.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\president_USA.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\president_Russia.jpg" />
@@ -281,6 +260,30 @@
       <Project>{5a355988-e3c1-4ea0-8607-ed7d95ee483a}</Project>
       <Name>Tyuiu.BelovaEA.Sprint7.Project.V13.Lib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animal_France.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nature_France.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\America_Map.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_Russia.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_USA.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_France.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_China.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\president_Japan.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

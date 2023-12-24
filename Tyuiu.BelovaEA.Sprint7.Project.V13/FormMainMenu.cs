@@ -220,11 +220,6 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.WindowState = FormWindowState.Minimized;
         }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
-            FormAbout_BEA formAbout = new FormAbout_BEA();
-            formAbout.ShowDialog();
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -240,6 +235,12 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             txt.StartInfo.FileName = "WINWORD.EXE";
             txt.StartInfo.Arguments = path;
             txt.Start();
+        }
+
+        private void buttonAbout_BEA_Click(object sender, EventArgs e)
+        {
+            FormAbout_BEA formAbout = new FormAbout_BEA();
+            formAbout.ShowDialog();
         }
     }
 }

@@ -217,9 +217,6 @@
   <data name="president_USA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\president_USA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="president_Russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\president_Russia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="fact_Russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fact_Russia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -237,5 +234,8 @@
   </data>
   <data name="fact_USA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fact_USA.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="president_Russia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\president_Russia.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

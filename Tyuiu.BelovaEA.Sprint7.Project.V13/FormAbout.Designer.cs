@@ -30,12 +30,12 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
         private void InitializeComponent()
         {
             this.pictureBoxAvatar_BEA = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
+            this.labelInfo1_BEA = new System.Windows.Forms.Label();
+            this.labelInfo2_BEA = new System.Windows.Forms.Label();
+            this.labelInfo4_BEA = new System.Windows.Forms.Label();
+            this.labelInfo3_BEA = new System.Windows.Forms.Label();
+            this.labelInfo5_BEA = new System.Windows.Forms.Label();
+            this.labelInfo6_BEA = new System.Windows.Forms.Label();
             this.buttonOk_BEA = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxAvatar_BEA)).BeginInit();
             this.SuspendLayout();
@@ -50,65 +50,65 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.pictureBoxAvatar_BEA.TabIndex = 0;
             this.pictureBoxAvatar_BEA.TabStop = false;
             // 
-            // label1
+            // labelInfo1_BEA
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(248, 36);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(227, 20);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Разработчик: Белова Е.А.";
+            this.labelInfo1_BEA.AutoSize = true;
+            this.labelInfo1_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelInfo1_BEA.Location = new System.Drawing.Point(248, 36);
+            this.labelInfo1_BEA.Name = "labelInfo1_BEA";
+            this.labelInfo1_BEA.Size = new System.Drawing.Size(227, 20);
+            this.labelInfo1_BEA.TabIndex = 1;
+            this.labelInfo1_BEA.Text = "Разработчик: Белова Е.А.";
             // 
-            // label2
+            // labelInfo2_BEA
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label2.Location = new System.Drawing.Point(248, 68);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(159, 20);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "группа: ИИПб-23-1";
+            this.labelInfo2_BEA.AutoSize = true;
+            this.labelInfo2_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelInfo2_BEA.Location = new System.Drawing.Point(248, 68);
+            this.labelInfo2_BEA.Name = "labelInfo2_BEA";
+            this.labelInfo2_BEA.Size = new System.Drawing.Size(159, 20);
+            this.labelInfo2_BEA.TabIndex = 2;
+            this.labelInfo2_BEA.Text = "группа: ИИПб-23-1";
             // 
-            // label3
+            // labelInfo4_BEA
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label3.Location = new System.Drawing.Point(248, 173);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(441, 20);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Тюменский Индустриальныйй Университет (с) 2023";
+            this.labelInfo4_BEA.AutoSize = true;
+            this.labelInfo4_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelInfo4_BEA.Location = new System.Drawing.Point(248, 173);
+            this.labelInfo4_BEA.Name = "labelInfo4_BEA";
+            this.labelInfo4_BEA.Size = new System.Drawing.Size(441, 20);
+            this.labelInfo4_BEA.TabIndex = 4;
+            this.labelInfo4_BEA.Text = "Тюменский Индустриальныйй Университет (с) 2023";
             // 
-            // label4
+            // labelInfo3_BEA
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label4.Location = new System.Drawing.Point(248, 124);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(460, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Программа разработана в рамках изучения языка C#";
+            this.labelInfo3_BEA.AutoSize = true;
+            this.labelInfo3_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelInfo3_BEA.Location = new System.Drawing.Point(248, 124);
+            this.labelInfo3_BEA.Name = "labelInfo3_BEA";
+            this.labelInfo3_BEA.Size = new System.Drawing.Size(460, 20);
+            this.labelInfo3_BEA.TabIndex = 3;
+            this.labelInfo3_BEA.Text = "Программа разработана в рамках изучения языка C#";
             // 
-            // label5
+            // labelInfo5_BEA
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label5.Location = new System.Drawing.Point(248, 199);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(396, 20);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "Высшая Школа Цифровых Технологий (с) 2023";
+            this.labelInfo5_BEA.AutoSize = true;
+            this.labelInfo5_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelInfo5_BEA.Location = new System.Drawing.Point(248, 199);
+            this.labelInfo5_BEA.Name = "labelInfo5_BEA";
+            this.labelInfo5_BEA.Size = new System.Drawing.Size(396, 20);
+            this.labelInfo5_BEA.TabIndex = 5;
+            this.labelInfo5_BEA.Text = "Высшая Школа Цифровых Технологий (с) 2023";
             // 
-            // label6
+            // labelInfo6_BEA
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(248, 240);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(420, 20);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Внутреннее имя: Tyuiu.BelovaEA.Sprint7.Project.V13\r\n";
+            this.labelInfo6_BEA.AutoSize = true;
+            this.labelInfo6_BEA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelInfo6_BEA.Location = new System.Drawing.Point(248, 240);
+            this.labelInfo6_BEA.Name = "labelInfo6_BEA";
+            this.labelInfo6_BEA.Size = new System.Drawing.Size(420, 20);
+            this.labelInfo6_BEA.TabIndex = 6;
+            this.labelInfo6_BEA.Text = "Внутреннее имя: Tyuiu.BelovaEA.Sprint7.Project.V13\r\n";
             // 
             // buttonOk_BEA
             // 
@@ -134,12 +134,12 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(741, 320);
             this.Controls.Add(this.buttonOk_BEA);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelInfo6_BEA);
+            this.Controls.Add(this.labelInfo5_BEA);
+            this.Controls.Add(this.labelInfo4_BEA);
+            this.Controls.Add(this.labelInfo3_BEA);
+            this.Controls.Add(this.labelInfo2_BEA);
+            this.Controls.Add(this.labelInfo1_BEA);
             this.Controls.Add(this.pictureBoxAvatar_BEA);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
@@ -157,12 +157,12 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBoxAvatar_BEA;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label labelInfo1_BEA;
+        private System.Windows.Forms.Label labelInfo2_BEA;
+        private System.Windows.Forms.Label labelInfo4_BEA;
+        private System.Windows.Forms.Label labelInfo3_BEA;
+        private System.Windows.Forms.Label labelInfo5_BEA;
+        private System.Windows.Forms.Label labelInfo6_BEA;
         private System.Windows.Forms.Button buttonOk_BEA;
     }
 }

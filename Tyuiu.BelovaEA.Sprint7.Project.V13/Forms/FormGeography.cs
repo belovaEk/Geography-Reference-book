@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using Tyuiu.BelovaEA.Sprint7.Project.V13.Lib;
+using System.IO;
 
 
 namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
@@ -21,7 +22,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
         }
 
         DataService ds = new DataService();
-        string path = @"C:\Users\belov\source\repos\Tyuiu.BelovaEA.Sprint7\Based\Info.csv";
+        string path = $@"{Directory.GetCurrentDirectory()}\Info.csv";
 
         private void comboBoxChoosingCountry_BEA_SelectedIndexChanged(object sender, EventArgs e)
         {

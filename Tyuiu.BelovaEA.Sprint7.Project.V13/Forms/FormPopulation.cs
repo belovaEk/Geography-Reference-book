@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 using Tyuiu.BelovaEA.Sprint7.Project.V13.Lib;
+using System.IO;
 
 namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
 {
@@ -20,19 +21,19 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
         }
         
         DataService ds = new DataService();
-        string path = @"C:\Users\belov\source\repos\Tyuiu.BelovaEA.Sprint7\Based\population.csv";
+        string path = $@"{Directory.GetCurrentDirectory()}\population.csv";
         private void comboBoxChoosingCountry_BEA_SelectedIndexChanged(object sender, EventArgs e)
         {
+            // Настраиваем оси
+            chartNumber_BEA.ChartAreas[0].AxisX.Title = "Годы";
+            chartNumber_BEA.ChartAreas[0].AxisX.TitleFont = new Font("Microsoft Sans Serif", 13);
+            chartNumber_BEA.ChartAreas[0].AxisY.Title = "Кол-во человек, тыс";
+            chartNumber_BEA.ChartAreas[0].AxisY.TitleFont = new Font("Microsoft Sans Serif", 13);
 
             // заполняем численность
-
-            int[,] matrixNumber = new int[2, 5];
             int index = comboBoxChoosingCountry_BEA.SelectedIndex;
-            matrixNumber = ds.Population_Number(index, path);
+            int[,]  matrixNumber = ds.Population_Number(index, path);
 
-            chartNumber_BEA.ChartAreas[0].AxisX.Title = "Годы";
-            chartNumber_BEA.ChartAreas[0].AxisY.Title = "Кол-во человек, тыс";
-            
             chartNumber_BEA.Series[0].Points.Clear();
             for (int r = 0; r < matrixNumber.GetLongLength(0); r++)
             {
@@ -49,20 +50,20 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
             {
                 case 0:
                     chartNationaly_BEA.Series[0].Points.Clear();
-                    matrixNationaly = ds.Population_Nationaly(@"C:\Users\belov\source\repos\Tyuiu.BelovaEA.Sprint7\Based\National_Russia.csv");
+                    matrixNationaly = ds.Population_Nationaly($@"{Directory.GetCurrentDirectory()}\National_Russia.csv");
                     for (int r = 0; r < matrixNationaly.GetLongLength(0); r++)
                     {
                         chartNationaly_BEA.Series[0].Points.AddXY(matrixNationaly[r, 0], matrixNationaly[r, 1]);
                     }
 
-                    chartNumber_BEA.ChartAreas[0].AxisY.Minimum = 144000;
+                    chartNumber_BEA.ChartAreas[0].AxisY.Minimum = 140000;
                     chartNumber_BEA.ChartAreas[0].AxisY.Maximum = 148000;
                     break;
 
 
                 case 1:
                     chartNationaly_BEA.Series[0].Points.Clear();
-                    matrixNationaly = ds.Population_Nationaly(@"C:\Users\belov\source\repos\Tyuiu.BelovaEA.Sprint7\Based\National_USA.csv");
+                    matrixNationaly = ds.Population_Nationaly($@"{Directory.GetCurrentDirectory()}\National_USA.csv");
                     for (int r = 0; r < matrixNationaly.GetLongLength(0); r++)
                     {
                         chartNationaly_BEA.Series[0].Points.AddXY(matrixNationaly[r, 0], matrixNationaly[r, 1]);
@@ -73,7 +74,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
 
                 case 2:
                     chartNationaly_BEA.Series[0].Points.Clear();
-                    matrixNationaly = ds.Population_Nationaly(@"C:\Users\belov\source\repos\Tyuiu.BelovaEA.Sprint7\Based\National_France.csv");
+                    matrixNationaly = ds.Population_Nationaly($@"{Directory.GetCurrentDirectory()}\National_France.csv");
                     for (int r = 0; r < matrixNationaly.GetLongLength(0); r++)
                     {
                         chartNationaly_BEA.Series[0].Points.AddXY(matrixNationaly[r, 0], matrixNationaly[r, 1]);
@@ -85,7 +86,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
 
                 case 3:
                     chartNationaly_BEA.Series[0].Points.Clear();
-                    matrixNationaly = ds.Population_Nationaly(@"C:\Users\belov\source\repos\Tyuiu.BelovaEA.Sprint7\Based\National_China.csv");
+                    matrixNationaly = ds.Population_Nationaly($@"{Directory.GetCurrentDirectory()}\National_China.csv");
                     for (int r = 0; r < matrixNationaly.GetLongLength(0); r++)
                     {
                         chartNationaly_BEA.Series[0].Points.AddXY(matrixNationaly[r, 0], matrixNationaly[r, 1]);
@@ -96,7 +97,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
                     break;
                 case 4:
                     chartNationaly_BEA.Series[0].Points.Clear();
-                    matrixNationaly = ds.Population_Nationaly(@"C:\Users\belov\source\repos\Tyuiu.BelovaEA.Sprint7\Based\National_Japan.csv");
+                    matrixNationaly = ds.Population_Nationaly($@"{Directory.GetCurrentDirectory()}\National_Japan.csv");
                     for (int r = 0; r < matrixNationaly.GetLongLength(0); r++)
                     {
                         chartNationaly_BEA.Series[0].Points.AddXY(matrixNationaly[r, 0], matrixNationaly[r, 1]);
@@ -107,7 +108,8 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13.Forms
                     break;
                 
             }
-   
+
+            chartNationaly_BEA.Series[0]["PieLabelStyle"] = "Disabled"; // убираем подписи с диаграммы
         }
         
     }
