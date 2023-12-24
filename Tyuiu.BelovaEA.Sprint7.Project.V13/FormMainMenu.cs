@@ -48,7 +48,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
         {
             if (activeForm != null)
                 activeForm.Close();
-            // ActivateButton(btnSender);
+            
             activeForm = childForm;
             childForm.TopLevel = false;
             childForm.FormBorderStyle = FormBorderStyle.None;

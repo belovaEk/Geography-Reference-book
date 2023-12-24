@@ -233,6 +233,7 @@ namespace Tyuiu.BelovaEA.Sprint7.Project.V13
             this.textBoxWelcome.BackColor = System.Drawing.SystemColors.Control;
             this.textBoxWelcome.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxWelcome.Name = "textBoxWelcome";
+            this.textBoxWelcome.ReadOnly = true;
             // 
             // labelWelcome_BEA
             // 

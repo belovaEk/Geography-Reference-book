@@ -117,14 +117,138 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="&gt;&gt;buttonFeedback_BEA.Name" xml:space="preserve">
+    <value>buttonFeedback_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonFeedback_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFeedback_BEA.Parent" xml:space="preserve">
+    <value>panelMenu_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonFeedback_BEA.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;buttonFact_BEA.Name" xml:space="preserve">
+    <value>buttonFact_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonFact_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonFact_BEA.Parent" xml:space="preserve">
+    <value>panelMenu_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonFact_BEA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonPolitics_BEA.Name" xml:space="preserve">
+    <value>buttonPolitics_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonPolitics_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPolitics_BEA.Parent" xml:space="preserve">
+    <value>panelMenu_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonPolitics_BEA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonEconomy_BEA.Name" xml:space="preserve">
+    <value>buttonEconomy_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonEconomy_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonEconomy_BEA.Parent" xml:space="preserve">
+    <value>panelMenu_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonEconomy_BEA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;buttonPopulation_BEA.Name" xml:space="preserve">
+    <value>buttonPopulation_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonPopulation_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonPopulation_BEA.Parent" xml:space="preserve">
+    <value>panelMenu_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonPopulation_BEA.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;buttonNature_BEA.Name" xml:space="preserve">
+    <value>buttonNature_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonNature_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonNature_BEA.Parent" xml:space="preserve">
+    <value>panelMenu_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonNature_BEA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;buttonGeography_BEA.Name" xml:space="preserve">
+    <value>buttonGeography_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonGeography_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonGeography_BEA.Parent" xml:space="preserve">
+    <value>panelMenu_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonGeography_BEA.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;panelLogo_BEA.Name" xml:space="preserve">
+    <value>panelLogo_BEA</value>
+  </data>
+  <data name="&gt;&gt;panelLogo_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelLogo_BEA.Parent" xml:space="preserve">
+    <value>panelMenu_BEA</value>
+  </data>
+  <data name="&gt;&gt;panelLogo_BEA.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelMenu_BEA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="panelMenu_BEA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="panelMenu_BEA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="panelMenu_BEA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>220, 795</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="panelMenu_BEA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;panelMenu_BEA.Name" xml:space="preserve">
+    <value>panelMenu_BEA</value>
+  </data>
+  <data name="&gt;&gt;panelMenu_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panelMenu_BEA.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panelMenu_BEA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="buttonFeedback_BEA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Bottom, Left</value>
   </data>
   <data name="buttonFeedback_BEA.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Flat</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonFeedback_BEA.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 10pt</value>
   </data>
@@ -140,7 +264,6 @@
   <data name="buttonFeedback_BEA.Size" type="System.Drawing.Size, System.Drawing">
     <value>52, 27</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonFeedback_BEA.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
@@ -471,32 +594,92 @@
   <data name="&gt;&gt;panelLogo_BEA.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="panelMenu_BEA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Left</value>
+  <data name="&gt;&gt;buttonClose_BEA.Name" xml:space="preserve">
+    <value>buttonClose_BEA</value>
   </data>
-  <data name="panelMenu_BEA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
+  <data name="&gt;&gt;buttonClose_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="panelMenu_BEA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+  <data name="&gt;&gt;buttonClose_BEA.Parent" xml:space="preserve">
+    <value>panelTitleBar_BEA</value>
   </data>
-  <data name="panelMenu_BEA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>220, 795</value>
-  </data>
-  <data name="panelMenu_BEA.TabIndex" type="System.Int32, mscorlib">
+  <data name="&gt;&gt;buttonClose_BEA.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;panelMenu_BEA.Name" xml:space="preserve">
-    <value>panelMenu_BEA</value>
+  <data name="&gt;&gt;buttonMax_BEA.Name" xml:space="preserve">
+    <value>buttonMax_BEA</value>
   </data>
-  <data name="&gt;&gt;panelMenu_BEA.Type" xml:space="preserve">
+  <data name="&gt;&gt;buttonMax_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMax_BEA.Parent" xml:space="preserve">
+    <value>panelTitleBar_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonMax_BEA.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;buttonMin_BEA.Name" xml:space="preserve">
+    <value>buttonMin_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonMin_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonMin_BEA.Parent" xml:space="preserve">
+    <value>panelTitleBar_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonMin_BEA.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;buttonCloseChildForm_BEA.Name" xml:space="preserve">
+    <value>buttonCloseChildForm_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonCloseChildForm_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;buttonCloseChildForm_BEA.Parent" xml:space="preserve">
+    <value>panelTitleBar_BEA</value>
+  </data>
+  <data name="&gt;&gt;buttonCloseChildForm_BEA.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;labelTitle_BEA.Name" xml:space="preserve">
+    <value>labelTitle_BEA</value>
+  </data>
+  <data name="&gt;&gt;labelTitle_BEA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;labelTitle_BEA.Parent" xml:space="preserve">
+    <value>panelTitleBar_BEA</value>
+  </data>
+  <data name="&gt;&gt;labelTitle_BEA.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="panelTitleBar_BEA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="panelTitleBar_BEA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>220, 0</value>
+  </data>
+  <data name="panelTitleBar_BEA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="panelTitleBar_BEA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1125, 80</value>
+  </data>
+  <data name="panelTitleBar_BEA.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar_BEA.Name" xml:space="preserve">
+    <value>panelTitleBar_BEA</value>
+  </data>
+  <data name="&gt;&gt;panelTitleBar_BEA.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panelMenu_BEA.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panelTitleBar_BEA.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panelMenu_BEA.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;panelTitleBar_BEA.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="buttonClose_BEA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -681,33 +864,6 @@
   <data name="&gt;&gt;labelTitle_BEA.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
-  <data name="panelTitleBar_BEA.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Top</value>
-  </data>
-  <data name="panelTitleBar_BEA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>220, 0</value>
-  </data>
-  <data name="panelTitleBar_BEA.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="panelTitleBar_BEA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1125, 80</value>
-  </data>
-  <data name="panelTitleBar_BEA.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;panelTitleBar_BEA.Name" xml:space="preserve">
-    <value>panelTitleBar_BEA</value>
-  </data>
-  <data name="&gt;&gt;panelTitleBar_BEA.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panelTitleBar_BEA.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panelTitleBar_BEA.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="buttonAbout_BEA.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>None</value>
   </data>
@@ -790,10 +946,10 @@
     <value>None</value>
   </data>
   <data name="textBoxWelcome.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 12pt</value>
+    <value>Microsoft Sans Serif, 13pt</value>
   </data>
   <data name="textBoxWelcome.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1, 190</value>
+    <value>12, 190</value>
   </data>
   <data name="textBoxWelcome.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
@@ -842,16 +998,16 @@
     <value>True</value>
   </data>
   <data name="labelWelcome_BEA.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 15pt</value>
+    <value>Microsoft Sans Serif, 20pt</value>
   </data>
   <data name="labelWelcome_BEA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="labelWelcome_BEA.Location" type="System.Drawing.Point, System.Drawing">
-    <value>436, 111</value>
+    <value>412, 111</value>
   </data>
   <data name="labelWelcome_BEA.Size" type="System.Drawing.Size, System.Drawing">
-    <value>241, 29</value>
+    <value>327, 39</value>
   </data>
   <data name="labelWelcome_BEA.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
